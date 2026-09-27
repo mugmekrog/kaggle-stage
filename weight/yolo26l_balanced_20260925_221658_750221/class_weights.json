@@ -1,0 +1,23 @@
+{
+  "classes": [
+    "car",
+    "van",
+    "truck",
+    "bus"
+  ],
+  "training_instance_counts": [
+    99537.0,
+    18132.0,
+    9688.0,
+    4515.0
+  ],
+  "weights": [
+    0.3792068660259247,
+    0.8884758353233337,
+    1.2154901027679443,
+    1.5168274641036987
+  ],
+  "power": 0.5,
+  "cap_ratio": 4.0,
+  "source": "training labels only"
+}

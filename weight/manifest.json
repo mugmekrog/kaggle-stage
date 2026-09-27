@@ -1,0 +1,459 @@
+{
+  "file_count": 75,
+  "total_bytes": 2821129818,
+  "excluded": [
+    "rfdetr_dinov2/__pycache__/run.cpython-312.pyc"
+  ],
+  "files": [
+    {
+      "path": "rfdetr_dinov2/boxes.csv",
+      "size_bytes": 692591,
+      "sha256": "f300c40ed7acd44bacf6e11d639edf9c815347a0865a757afef4251d2419e8e0",
+      "git_lfs": true
+    },
+    {
+      "path": "rfdetr_dinov2/preds/rfdetr_large_768_t768__checkpoint_best_total__images_40.pkl",
+      "size_bytes": 1725256,
+      "sha256": "711ddc1d81957a4a6bcc787a41baef164fe983cd85dd5def027421bfcf1e92fe",
+      "git_lfs": true
+    },
+    {
+      "path": "rfdetr_dinov2/preds/rfdetr_large_768_t768__checkpoint_best_total__test.pkl",
+      "size_bytes": 114569135,
+      "sha256": "28780c853d9d55208cacf989514b0a0190fa779841b10469de6d098b42ecd7da",
+      "git_lfs": true
+    },
+    {
+      "path": "rfdetr_dinov2/preds/rfdetr_large_768_t768__checkpoint_best_total__val.pkl",
+      "size_bytes": 18951605,
+      "sha256": "426242ea7f2a3f4cd43cc3f34532ea3f3440fc58c1dfe3db728733ce5aaf3b02",
+      "git_lfs": true
+    },
+    {
+      "path": "rfdetr_dinov2/README.md",
+      "size_bytes": 2632,
+      "sha256": "21f448515a45cc703944520d2f4770ee91da5ea40ca8565aff32a23278bf901f",
+      "git_lfs": false
+    },
+    {
+      "path": "rfdetr_dinov2/requirements.txt",
+      "size_bytes": 29,
+      "sha256": "f4822bb16fe6623c33d8363547162019f6a8a78e9b1c5b66f65f780758d6943d",
+      "git_lfs": false
+    },
+    {
+      "path": "rfdetr_dinov2/run.py",
+      "size_bytes": 5487,
+      "sha256": "0751f02ae0a3b8d35475b876a706e1794d48d8871f0de21c3cd35fc26013cb7e",
+      "git_lfs": false
+    },
+    {
+      "path": "rfdetr_dinov2/runs/rfdetr_large_768_t768/checkpoint_best_ema.pth",
+      "size_bytes": 135401755,
+      "sha256": "af19c63450d02d740019bb0a4facef66a72fd0b005b550ea8982467a726b1bb6",
+      "git_lfs": true
+    },
+    {
+      "path": "rfdetr_dinov2/runs/rfdetr_large_768_t768/checkpoint_best_total.pth",
+      "size_bytes": 135389147,
+      "sha256": "d1a7f46bc691216d6528dbdf64450c54715673d1daaaa702a41b6bfba9349638",
+      "git_lfs": true
+    },
+    {
+      "path": "rfdetr_dinov2/runs/rfdetr_large_768_t768/events.out.tfevents.1790362081.e283d6694910.3486.0",
+      "size_bytes": 1817,
+      "sha256": "003dbfd125d718e74053e791dc9633b9793f0d29c3201a3e4c0f3c6f4d182658",
+      "git_lfs": true
+    },
+    {
+      "path": "rfdetr_dinov2/runs/rfdetr_large_768_t768/events.out.tfevents.1790364660.7f14d7db6426.3079.0",
+      "size_bytes": 132207,
+      "sha256": "faa32b36740f499ef6e3c5443042c5a1e8848f051173f9dfa3b37dc228b1d25c",
+      "git_lfs": true
+    },
+    {
+      "path": "rfdetr_dinov2/runs/rfdetr_large_768_t768/fusion_grid_val.csv",
+      "size_bytes": 2183,
+      "sha256": "70fc16e7989249dcff162b711c40952c55e35d655da7ddeb3e67e7c98a0e3525",
+      "git_lfs": true
+    },
+    {
+      "path": "rfdetr_dinov2/runs/rfdetr_large_768_t768/hparams.yaml",
+      "size_bytes": 3,
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+      "git_lfs": false
+    },
+    {
+      "path": "rfdetr_dinov2/runs/rfdetr_large_768_t768/last.ckpt",
+      "size_bytes": 541117283,
+      "sha256": "acbb2064765b7250ccdb407c3695c2eea515ccf425d4d5be922ca0aee0098812",
+      "git_lfs": true
+    },
+    {
+      "path": "rfdetr_dinov2/runs/rfdetr_large_768_t768/last_ema.pth",
+      "size_bytes": 135395971,
+      "sha256": "6ea0393b37f8fe92256787cc2e296f489c1bbd892626d25999e9aab2081f8295",
+      "git_lfs": true
+    },
+    {
+      "path": "rfdetr_dinov2/runs/rfdetr_large_768_t768/metrics.csv",
+      "size_bytes": 61251,
+      "sha256": "3b98a20884d45f5279b40eeb3cfd3660a2ecfe16d2ab474f8438bb9f0881782d",
+      "git_lfs": true
+    },
+    {
+      "path": "rfdetr_dinov2/runs/rfdetr_large_768_t768/train_originals.coco.json",
+      "size_bytes": 417378,
+      "sha256": "5fdcebad96e5d8b394818c6ea9d2c5769fb6e89747fafd2d311a6628c1c37e1d",
+      "git_lfs": false
+    },
+    {
+      "path": "rfdetr_dinov2/runs/rfdetr_large_768_t768/training_config.json",
+      "size_bytes": 4405,
+      "sha256": "69397d168d8e39b0ca262d0fa6d2c5a68683e75827ed14b5f810aec836f9d248",
+      "git_lfs": false
+    },
+    {
+      "path": "rfdetr_dinov2/runs/rfdetr_large_768_t768/TRAINING_DONE",
+      "size_bytes": 19,
+      "sha256": "b3cebed407f760aa5c2b3f818a37b74992f75287f117cc065f8203326a2c6bbf",
+      "git_lfs": false
+    },
+    {
+      "path": "rfdetr_dinov2/submissions/submission_rfdetr_large_768_t768_default.csv",
+      "size_bytes": 27469001,
+      "sha256": "866870f418ace86c2a68ac328faf7680537e9bbce021a8e95dfb0c335a499e41",
+      "git_lfs": true
+    },
+    {
+      "path": "rfdetr_dinov2/submissions/submission_rfdetr_large_768_t768_final.csv",
+      "size_bytes": 27293576,
+      "sha256": "3815a0fd96d6b8ecc81b54cef08d306c380b94862e56a674bc5fb296aa82eac6",
+      "git_lfs": true
+    },
+    {
+      "path": "yolo26l_balanced_20260925_221658_750221/args.yaml",
+      "size_bytes": 1850,
+      "sha256": "616cbf38c896d894dda02c7903ace5252e59fed688195b5a66fd04c6e70470ed",
+      "git_lfs": false
+    },
+    {
+      "path": "yolo26l_balanced_20260925_221658_750221/best_ap50.json",
+      "size_bytes": 46,
+      "sha256": "5abb981427d6f33bec6771a9f627279c13bb5ce0f2e0fc13083a8c6f843d664b",
+      "git_lfs": false
+    },
+    {
+      "path": "yolo26l_balanced_20260925_221658_750221/best_ap50.pt",
+      "size_bytes": 210741751,
+      "sha256": "8d683c3e9fb44ecd5fbc85a91abb55686358168e8670e9ce7ca0b7fd6c1c792b",
+      "git_lfs": true
+    },
+    {
+      "path": "yolo26l_balanced_20260925_221658_750221/BoxF1_curve.png",
+      "size_bytes": 193207,
+      "sha256": "d53282b80e2ccc8f8f7dd548a496c8c722a1ff7df3c06edfb0b17c8a05d72d09",
+      "git_lfs": true
+    },
+    {
+      "path": "yolo26l_balanced_20260925_221658_750221/BoxP_curve.png",
+      "size_bytes": 180139,
+      "sha256": "7ed86682d89af634291f44a885f6f06376a835eb4e98b847d0d704bb5689426f",
+      "git_lfs": true
+    },
+    {
+      "path": "yolo26l_balanced_20260925_221658_750221/BoxPR_curve.png",
+      "size_bytes": 193313,
+      "sha256": "469f60e5fd95ce683397ac35ed8869b91290a6beae588c7b52600aeade55171e",
+      "git_lfs": true
+    },
+    {
+      "path": "yolo26l_balanced_20260925_221658_750221/BoxR_curve.png",
+      "size_bytes": 190546,
+      "sha256": "19a37539b63c9c47e8baa821c4a73fc16909560f0b756792ec1d686cb2c4a096",
+      "git_lfs": true
+    },
+    {
+      "path": "yolo26l_balanced_20260925_221658_750221/class_metrics.jsonl",
+      "size_bytes": 29577,
+      "sha256": "4f275d703f44e9f62821b1696b9df45baf93b9986d37c6fb077a108b04ca1229",
+      "git_lfs": false
+    },
+    {
+      "path": "yolo26l_balanced_20260925_221658_750221/class_weights.json",
+      "size_bytes": 340,
+      "sha256": "200566e197ce2dc4ad7271baed8a2a996c067d1fbda9e23b6a9c95b8b0ffc5cc",
+      "git_lfs": false
+    },
+    {
+      "path": "yolo26l_balanced_20260925_221658_750221/confusion_matrix.png",
+      "size_bytes": 152687,
+      "sha256": "7770faa9c912b212b683a6555190e2df67a33a01415cf4e7cc14ad1c0869540e",
+      "git_lfs": true
+    },
+    {
+      "path": "yolo26l_balanced_20260925_221658_750221/confusion_matrix_normalized.png",
+      "size_bytes": 151740,
+      "sha256": "48f492aeba960188bcb6a6086b269f63adcc2d1fa1f4b9efa707fd6a0b28ecb1",
+      "git_lfs": true
+    },
+    {
+      "path": "yolo26l_balanced_20260925_221658_750221/data_audit.json",
+      "size_bytes": 53064,
+      "sha256": "2d3581a5d3da05a938ea13d5c03e8e3b211c290114ee349e74b814e092f8f9f8",
+      "git_lfs": false
+    },
+    {
+      "path": "yolo26l_balanced_20260925_221658_750221/dataset.yaml",
+      "size_bytes": 325,
+      "sha256": "569805414de621d777e48e2471f18f045668a63b7dd8bf4f132e5f4e1ff03602",
+      "git_lfs": false
+    },
+    {
+      "path": "yolo26l_balanced_20260925_221658_750221/environment.json",
+      "size_bytes": 116,
+      "sha256": "0c1d5b98b17fcd29f6f858bf5f3c6c2e746add63add91dae06af6ead69a81eac",
+      "git_lfs": false
+    },
+    {
+      "path": "yolo26l_balanced_20260925_221658_750221/experiment.json",
+      "size_bytes": 2812,
+      "sha256": "ad1bb522370f4450bcd682aea9655d42e621f2cb1f1ad8b7366eaa1267112450",
+      "git_lfs": false
+    },
+    {
+      "path": "yolo26l_balanced_20260925_221658_750221/installed_hooks.json",
+      "size_bytes": 2541,
+      "sha256": "9dc5eb6ee7e0afa1634d0632cbd19af83d0485fc72771a3f31aa0e883b29d9fb",
+      "git_lfs": false
+    },
+    {
+      "path": "yolo26l_balanced_20260925_221658_750221/labels.jpg",
+      "size_bytes": 110729,
+      "sha256": "3487ecd712f39a235b440c0f023ba74fd63fba85f8b07aea17719cba5ecab2cd",
+      "git_lfs": true
+    },
+    {
+      "path": "yolo26l_balanced_20260925_221658_750221/last_resume.pt",
+      "size_bytes": 210744183,
+      "sha256": "547e2b921fe852de41dc33bf96be8b709866b4c68a0e728a5462cf9175facdbd",
+      "git_lfs": true
+    },
+    {
+      "path": "yolo26l_balanced_20260925_221658_750221/nms_validation_20260926_051703_130918/iou060_cap500.csv",
+      "size_bytes": 11579986,
+      "sha256": "4806bc43acfeedfce84640416b57ec314c89b89ec59d948bfe4eaf1161008d7a",
+      "git_lfs": true
+    },
+    {
+      "path": "yolo26l_balanced_20260925_221658_750221/nms_validation_20260926_051703_130918/iou070_cap500.csv",
+      "size_bytes": 13308936,
+      "sha256": "eaf1351710d1190103d12977ba75d5648b4024c74c29156ff5b5cfdfcc87bc0c",
+      "git_lfs": true
+    },
+    {
+      "path": "yolo26l_balanced_20260925_221658_750221/nms_validation_20260926_051703_130918/iou080_cap1000.csv",
+      "size_bytes": 18370090,
+      "sha256": "8be607a323a60f3a6b8ceb9bbb817cb779fcab2f369f6a92f1d69b9c6c614a58",
+      "git_lfs": true
+    },
+    {
+      "path": "yolo26l_balanced_20260925_221658_750221/nms_validation_20260926_051703_130918/iou080_cap500.csv",
+      "size_bytes": 15536044,
+      "sha256": "e2ca029ac483502a88e24272d5d8460812940f934ae9ee34569e20de2d0f89c3",
+      "git_lfs": true
+    },
+    {
+      "path": "yolo26l_balanced_20260925_221658_750221/nms_validation_20260926_051703_130918/nms_audit.json",
+      "size_bytes": 7692,
+      "sha256": "9db4e8bab909a2c5db0b8fb35c9694dc29af2b4e8d364a60bd6409b548cbdb54",
+      "git_lfs": false
+    },
+    {
+      "path": "yolo26l_balanced_20260925_221658_750221/nms_validation_20260926_051703_130918/nms_selection.json",
+      "size_bytes": 20767,
+      "sha256": "938e2f6f9f91c4164b1e4a28d6324707230215315acd9e503c6bd0ab9eab39f1",
+      "git_lfs": false
+    },
+    {
+      "path": "yolo26l_balanced_20260925_221658_750221/pretrained_recipe.json",
+      "size_bytes": 2811,
+      "sha256": "a63f844bd36808ef51751e70061e529b88d422b9aaed1295e88dc6e09dde20c8",
+      "git_lfs": false
+    },
+    {
+      "path": "yolo26l_balanced_20260925_221658_750221/results.csv",
+      "size_bytes": 6437,
+      "sha256": "0efdeb82048ea779b3bd8e3ebf667ea71ed6bae9b42d05a4f74db16cf9c5262e",
+      "git_lfs": true
+    },
+    {
+      "path": "yolo26l_balanced_20260925_221658_750221/results.png",
+      "size_bytes": 291895,
+      "sha256": "e97366dc0405abff9af48e7446d636a25ac4ca8a8df711c6577384aaf909144b",
+      "git_lfs": true
+    },
+    {
+      "path": "yolo26l_balanced_20260925_221658_750221/run.json",
+      "size_bytes": 294,
+      "sha256": "f5a1fef331212e3dfa996947029abc5fafdf45dbbdb59ce118be2ff75e46f7f5",
+      "git_lfs": false
+    },
+    {
+      "path": "yolo26l_balanced_20260925_221658_750221/submission_20260926_052139_710137/iou060_cap500.csv",
+      "size_bytes": 16633748,
+      "sha256": "eaa936a769548c5a1773e13f0a67ce10f147665c799d655befb7a0515db01711",
+      "git_lfs": true
+    },
+    {
+      "path": "yolo26l_balanced_20260925_221658_750221/submission_20260926_052139_710137/nms_audit.json",
+      "size_bytes": 7610,
+      "sha256": "d7209222b4bc2bd15d761d64ccf739f5f952d600969710be47b5ea6aa328e186",
+      "git_lfs": false
+    },
+    {
+      "path": "yolo26l_balanced_20260925_221658_750221/submission_20260926_052139_710137/submission.csv",
+      "size_bytes": 15510145,
+      "sha256": "e409c638eed7ad3e4d4b8b66d3d31e6538a4b8a02b2bb0de36e399636a1764ae",
+      "git_lfs": true
+    },
+    {
+      "path": "yolo26l_balanced_20260925_221658_750221/submission_20260926_052139_710137/submission_candidate_removed_boxes.csv",
+      "size_bytes": 1830775,
+      "sha256": "993b725a558c31094f490aa4068c3bcaee460f1f154f8a745c2043e18ede7a50",
+      "git_lfs": true
+    },
+    {
+      "path": "yolo26l_balanced_20260925_221658_750221/submission_20260926_052139_710137/submission_report.json",
+      "size_bytes": 803,
+      "sha256": "18ca5c756a8e0271325dcd0d95ca8f5db009ee4262fdf5510800ff5dc42fcf84",
+      "git_lfs": false
+    },
+    {
+      "path": "yolo26l_balanced_20260925_221658_750221/train_batch0.jpg",
+      "size_bytes": 532421,
+      "sha256": "946c67c615e3c2509e786162630bcdad8b1063f5289351bc79a15af389a2312f",
+      "git_lfs": true
+    },
+    {
+      "path": "yolo26l_balanced_20260925_221658_750221/train_batch1.jpg",
+      "size_bytes": 497331,
+      "sha256": "1d418507e7c672045bc02f2cb88a556998efd1bec7b57bbb22b235ca55999899",
+      "git_lfs": true
+    },
+    {
+      "path": "yolo26l_balanced_20260925_221658_750221/train_batch2.jpg",
+      "size_bytes": 509098,
+      "sha256": "38d78b71104109a1c92c9cd4f7563c5c0b3b80af09f1ae952b131d0ddf6e52b8",
+      "git_lfs": true
+    },
+    {
+      "path": "yolo26l_balanced_20260925_221658_750221/train_batch25920.jpg",
+      "size_bytes": 443343,
+      "sha256": "68e2ecf0bceaaa0abd2cb6db7180886dce30774559bbc57a2bc23d970bb956c3",
+      "git_lfs": true
+    },
+    {
+      "path": "yolo26l_balanced_20260925_221658_750221/train_batch25921.jpg",
+      "size_bytes": 512272,
+      "sha256": "36c5137f4afe71273759d6e360ce3f12226fe93f702e3e89fde0ad5ccb0928f7",
+      "git_lfs": true
+    },
+    {
+      "path": "yolo26l_balanced_20260925_221658_750221/train_batch25922.jpg",
+      "size_bytes": 482185,
+      "sha256": "dedbdfdc59ee2794d02ca6315d14ab6ecaf5787096df0302fb90c6c4748cba07",
+      "git_lfs": true
+    },
+    {
+      "path": "yolo26l_balanced_20260925_221658_750221/train_images.txt",
+      "size_bytes": 284735,
+      "sha256": "018a0b0308e7b3de88c2afa7dac7968913d1c86f64473ee08e154a91e1c9cddd",
+      "git_lfs": false
+    },
+    {
+      "path": "yolo26l_balanced_20260925_221658_750221/val_batch0_labels.jpg",
+      "size_bytes": 546369,
+      "sha256": "d7f1504460f72ae8d4c6f3d1383ba6d9b8fe55838d4c92606a5ee80047b851b0",
+      "git_lfs": true
+    },
+    {
+      "path": "yolo26l_balanced_20260925_221658_750221/val_batch0_pred.jpg",
+      "size_bytes": 586260,
+      "sha256": "6630529b452b3321f101514d1216a35ba8688fa1a788afa473de902e5316de52",
+      "git_lfs": true
+    },
+    {
+      "path": "yolo26l_balanced_20260925_221658_750221/val_batch1_labels.jpg",
+      "size_bytes": 531798,
+      "sha256": "6df9a49ae530b1b09781fd828ee08f2db03b6d230d8fabaca61c8e4b99c75b38",
+      "git_lfs": true
+    },
+    {
+      "path": "yolo26l_balanced_20260925_221658_750221/val_batch1_pred.jpg",
+      "size_bytes": 563700,
+      "sha256": "aacdb122178768511f045435718c06df303c6e442b314d8160cdf8e7b8650cad",
+      "git_lfs": true
+    },
+    {
+      "path": "yolo26l_balanced_20260925_221658_750221/val_batch2_labels.jpg",
+      "size_bytes": 571453,
+      "sha256": "a9abf4f118aa78a1848c901fc7e7bfa4f78f08512fc4a8eb3b0d2b7c5cb4142a",
+      "git_lfs": true
+    },
+    {
+      "path": "yolo26l_balanced_20260925_221658_750221/val_batch2_pred.jpg",
+      "size_bytes": 628010,
+      "sha256": "ca9d254df565965f96dca22469be630f6be969614513fc699bc2f86cac5c3b84",
+      "git_lfs": true
+    },
+    {
+      "path": "yolo26l_balanced_20260925_221658_750221/valid_images.txt",
+      "size_bytes": 71170,
+      "sha256": "da31f8b6f03f4e472162edfe1cf2a3285c34e1b3f28bccf12b466a622fe14ff8",
+      "git_lfs": false
+    },
+    {
+      "path": "yolo26l_balanced_20260925_221658_750221/weights/best.pt",
+      "size_bytes": 53088794,
+      "sha256": "681392260c435be374bc449b873aae03fa064929a5b6ab685a4c414a459e6366",
+      "git_lfs": true
+    },
+    {
+      "path": "yolo26l_balanced_20260925_221658_750221/weights/epoch0.pt",
+      "size_bytes": 210737911,
+      "sha256": "968ab48dfea79f2c16426406da1541da7c44fce5d46f955fe3deded691b7b75f",
+      "git_lfs": true
+    },
+    {
+      "path": "yolo26l_balanced_20260925_221658_750221/weights/epoch10.pt",
+      "size_bytes": 210739191,
+      "sha256": "625719b7e971d4b907eaac87a89fdaa02fba348fb55941a3aaac019465098aac",
+      "git_lfs": true
+    },
+    {
+      "path": "yolo26l_balanced_20260925_221658_750221/weights/epoch20.pt",
+      "size_bytes": 210740471,
+      "sha256": "ef80fbe4f1a3d31a77927217aac664098326e3fe77b2113cf482bff112f0f479",
+      "git_lfs": true
+    },
+    {
+      "path": "yolo26l_balanced_20260925_221658_750221/weights/epoch30.pt",
+      "size_bytes": 210741751,
+      "sha256": "8d683c3e9fb44ecd5fbc85a91abb55686358168e8670e9ce7ca0b7fd6c1c792b",
+      "git_lfs": true
+    },
+    {
+      "path": "yolo26l_balanced_20260925_221658_750221/weights/epoch40.pt",
+      "size_bytes": 210743031,
+      "sha256": "ca231ab8b1b2f43c68e21e8bc942c1ee8a0a95b59388cb17d2cda7ebe5932457",
+      "git_lfs": true
+    },
+    {
+      "path": "yolo26l_balanced_20260925_221658_750221/weights/last.pt",
+      "size_bytes": 53088794,
+      "sha256": "8f887e3856898bfa5b3ce2744da3681151663510264bda6b4f971f40b58e900d",
+      "git_lfs": true
+    }
+  ]
+}

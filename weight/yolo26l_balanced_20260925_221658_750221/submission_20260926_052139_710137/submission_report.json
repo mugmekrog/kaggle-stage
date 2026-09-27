@@ -1,0 +1,29 @@
+{
+  "checkpoint_sha256": "8d683c3e9fb44ecd5fbc85a91abb55686358168e8670e9ce7ca0b7fd6c1c792b",
+  "selected": {
+    "name": "iou060_cap500",
+    "iou": 0.6,
+    "max_det": 500
+  },
+  "filtering": {
+    "images": 2118,
+    "boxes_before": 368571,
+    "boxes_after": 343202,
+    "removed_area": 25369,
+    "removed_confidence": 0,
+    "removed_total": 25369,
+    "empty_before": 0,
+    "empty_after": 0,
+    "newly_empty": 0,
+    "confidence": 0.001,
+    "minimum_area": 200,
+    "area_boundary": "inclusive",
+    "removed_boxes_csv": "/content/drive/MyDrive/roketsan_results/yolo26l_balanced_20260925_221658_750221/submission_20260926_052139_710137/submission_candidate_removed_boxes.csv"
+  },
+  "verification": {
+    "images": 2118,
+    "detections": 343202,
+    "empty_images": 0
+  },
+  "test_mAP": null
+}

@@ -1,0 +1,11 @@
+{
+  "path": "/content/vehicles_prepared",
+  "train": "/content/drive/MyDrive/roketsan_results/yolo26l_balanced_20260925_221658_750221/train_images.txt",
+  "val": "/content/drive/MyDrive/roketsan_results/yolo26l_balanced_20260925_221658_750221/valid_images.txt",
+  "names": [
+    "car",
+    "van",
+    "truck",
+    "bus"
+  ]
+}

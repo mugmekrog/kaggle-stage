@@ -18,9 +18,17 @@ Colab / A100 üzerinde kullanılan eğitim, değerlendirme ve ensemble notebook'
 
 ## Çalıştırma koşulları
 
-Notebook'lar Colab, GPU, Drive'daki veri/checkpoint dosyaları ve ilgili Python paketlerini gerektirir. YOLO eğitim notebook'u ayrıca özgün projenin `yolo26l_custom_bundle.zip` dosyasını ister; bu bağımlılık bu depodaki inceleme ZIP'i değildir ve depoya dahil edilmemiştir. Veri setleri ve model ağırlıkları burada bulunmaz.
+Notebook'lar Colab, GPU, veri/checkpoint dosyaları ve ilgili Python paketlerini gerektirir. YOLO eğitim notebook'u ayrıca özgün projenin `yolo26l_custom_bundle.zip` dosyasını ister; bu bağımlılık bu depodaki inceleme ZIP'i değildir ve depoya dahil edilmemiştir. Eğitim veri seti depoda bulunmaz. Eğitilmiş ağırlıklar ve koşu çıktıları [weight/](weight/README.md) altında Git LFS ile sunulur.
 
 Ana notebook'ların ayarlar bölümünden yolları düzenleyin. Yardımcı akışların bazıları aynı Colab kernel'inde oluşturulmuş değişkenleri kullanır; ilgili dosyadaki önkoşulları izleyin.
+
+## Model dosyaları
+
+- [RF-DETR ağırlıkları ve koşu çıktıları](weight/rfdetr_dinov2/)
+- [YOLO26l balanced ağırlıkları ve koşu çıktıları](weight/yolo26l_balanced_20260925_221658_750221/)
+- [Git LFS ile indirme ve checkpoint rehberi](weight/README.md)
+
+Checkpoint, tahmin, CSV ve görsel dosyalarını almak için Git LFS kurulu bir klonda `git lfs pull` çalıştırın. Notebook'lardaki Drive yollarını kullanacağınız konuma göre ayarlayın.
 
 ## İnceleme kapsamı
 

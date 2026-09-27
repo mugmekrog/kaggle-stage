@@ -1,0 +1,659 @@
+{
+  "checkpoint_sha256": "8d683c3e9fb44ecd5fbc85a91abb55686358168e8670e9ce7ca0b7fd6c1c792b",
+  "split_fingerprint": "6a1f7df749c2f13af470aed24c41b5a8fa1a37ed2a0ad7b9e82eb51c01dfca6a",
+  "environment": {
+    "ultralytics": "8.4.163",
+    "torch": "2.5.1+cu121",
+    "cuda_available": true,
+    "gpu": "NVIDIA A100-SXM4-80GB"
+  },
+  "options": {
+    "imgsz": 1280,
+    "conf": 0.001,
+    "iou": 0.7,
+    "max_det": 1000,
+    "nms": true,
+    "agnostic_nms": false,
+    "rect": true,
+    "augment": false,
+    "quantize": 32,
+    "device": "0",
+    "verbose": false
+  },
+  "results": {
+    "iou060_cap500": {
+      "unfiltered": {
+        "mAP50": 0.8086020531648225,
+        "per_class": {
+          "car": {
+            "AP50": 0.9070909739138698,
+            "recall": 0.9764868603042877,
+            "ground_truth": 25305,
+            "true_positives": 24710,
+            "false_positives": 121952,
+            "predictions": 146662
+          },
+          "van": {
+            "AP50": 0.7060173109108845,
+            "recall": 0.9589688506981741,
+            "ground_truth": 4655,
+            "true_positives": 4464,
+            "false_positives": 57352,
+            "predictions": 61816
+          },
+          "truck": {
+            "AP50": 0.7572992504103025,
+            "recall": 0.9405204460966543,
+            "ground_truth": 2421,
+            "true_positives": 2277,
+            "false_positives": 34222,
+            "predictions": 36499
+          },
+          "bus": {
+            "AP50": 0.8640006774242331,
+            "recall": 0.9506849315068493,
+            "ground_truth": 1095,
+            "true_positives": 1041,
+            "false_positives": 9359,
+            "predictions": 10400
+          }
+        },
+        "evaluator": "101-point AP50 proxy; no small-object ignore reconstruction; no detection cap"
+      },
+      "area200": {
+        "mAP50": 0.8083854638433229,
+        "per_class": {
+          "car": {
+            "AP50": 0.9068343346775971,
+            "recall": 0.9725745900019759,
+            "ground_truth": 25305,
+            "true_positives": 24611,
+            "false_positives": 111137,
+            "predictions": 135748
+          },
+          "van": {
+            "AP50": 0.7076183174039914,
+            "recall": 0.9566058002148228,
+            "ground_truth": 4655,
+            "true_positives": 4453,
+            "false_positives": 53246,
+            "predictions": 57699
+          },
+          "truck": {
+            "AP50": 0.7563848343857125,
+            "recall": 0.9376290788930194,
+            "ground_truth": 2421,
+            "true_positives": 2270,
+            "false_positives": 31808,
+            "predictions": 34078
+          },
+          "bus": {
+            "AP50": 0.8627043689059904,
+            "recall": 0.9497716894977168,
+            "ground_truth": 1095,
+            "true_positives": 1040,
+            "false_positives": 8781,
+            "predictions": 9821
+          }
+        },
+        "evaluator": "101-point AP50 proxy; no small-object ignore reconstruction; no detection cap"
+      },
+      "overlapping": {
+        "images": 358,
+        "mAP50": 0.79449963355225,
+        "per_class": {
+          "car": {
+            "AP50": 0.8829087211747899,
+            "recall": 0.9635657031819286,
+            "ground_truth": 12351,
+            "true_positives": 11901,
+            "false_positives": 48347,
+            "predictions": 60248
+          },
+          "van": {
+            "AP50": 0.6724660426321329,
+            "recall": 0.9383202099737533,
+            "ground_truth": 2286,
+            "true_positives": 2145,
+            "false_positives": 25702,
+            "predictions": 27847
+          },
+          "truck": {
+            "AP50": 0.7177897062181948,
+            "recall": 0.9233097880928355,
+            "ground_truth": 991,
+            "true_positives": 915,
+            "false_positives": 14169,
+            "predictions": 15084
+          },
+          "bus": {
+            "AP50": 0.9048340641838819,
+            "recall": 0.9634782608695652,
+            "ground_truth": 575,
+            "true_positives": 554,
+            "false_positives": 3574,
+            "predictions": 4128
+          }
+        },
+        "evaluator": "101-point AP50 proxy; no small-object ignore reconstruction; no detection cap"
+      },
+      "dense": {
+        "images": 182,
+        "mAP50": 0.8040910289538667,
+        "per_class": {
+          "car": {
+            "AP50": 0.8927504009312187,
+            "recall": 0.9669208573784006,
+            "ground_truth": 9704,
+            "true_positives": 9383,
+            "false_positives": 28508,
+            "predictions": 37891
+          },
+          "van": {
+            "AP50": 0.6569579643346439,
+            "recall": 0.9317312943746586,
+            "ground_truth": 1831,
+            "true_positives": 1706,
+            "false_positives": 17798,
+            "predictions": 19504
+          },
+          "truck": {
+            "AP50": 0.7726789614381602,
+            "recall": 0.9550224887556222,
+            "ground_truth": 667,
+            "true_positives": 637,
+            "false_positives": 7859,
+            "predictions": 8496
+          },
+          "bus": {
+            "AP50": 0.8939767891114443,
+            "recall": 0.9633507853403142,
+            "ground_truth": 382,
+            "true_positives": 368,
+            "false_positives": 2129,
+            "predictions": 2497
+          }
+        },
+        "evaluator": "101-point AP50 proxy; no small-object ignore reconstruction; no detection cap"
+      }
+    },
+    "iou070_cap500": {
+      "unfiltered": {
+        "mAP50": 0.8073291715158517,
+        "per_class": {
+          "car": {
+            "AP50": 0.9083067784343921,
+            "recall": 0.9806757557794902,
+            "ground_truth": 25305,
+            "true_positives": 24816,
+            "false_positives": 149894,
+            "predictions": 174710
+          },
+          "van": {
+            "AP50": 0.7046438158403835,
+            "recall": 0.9593984962406015,
+            "ground_truth": 4655,
+            "true_positives": 4466,
+            "false_positives": 63123,
+            "predictions": 67589
+          },
+          "truck": {
+            "AP50": 0.7557800518312996,
+            "recall": 0.9417596034696406,
+            "ground_truth": 2421,
+            "true_positives": 2280,
+            "false_positives": 37930,
+            "predictions": 40210
+          },
+          "bus": {
+            "AP50": 0.8605860399573313,
+            "recall": 0.9497716894977168,
+            "ground_truth": 1095,
+            "true_positives": 1040,
+            "false_positives": 10168,
+            "predictions": 11208
+          }
+        },
+        "evaluator": "101-point AP50 proxy; no small-object ignore reconstruction; no detection cap"
+      },
+      "area200": {
+        "mAP50": 0.80696745517084,
+        "per_class": {
+          "car": {
+            "AP50": 0.9066664009177393,
+            "recall": 0.9775933609958506,
+            "ground_truth": 25305,
+            "true_positives": 24738,
+            "false_positives": 137700,
+            "predictions": 162438
+          },
+          "van": {
+            "AP50": 0.7062476190557114,
+            "recall": 0.9574650912996777,
+            "ground_truth": 4655,
+            "true_positives": 4457,
+            "false_positives": 58830,
+            "predictions": 63287
+          },
+          "truck": {
+            "AP50": 0.7546344432580352,
+            "recall": 0.9392812887236679,
+            "ground_truth": 2421,
+            "true_positives": 2274,
+            "false_positives": 35424,
+            "predictions": 37698
+          },
+          "bus": {
+            "AP50": 0.8603213574518738,
+            "recall": 0.9488584474885845,
+            "ground_truth": 1095,
+            "true_positives": 1039,
+            "false_positives": 9608,
+            "predictions": 10647
+          }
+        },
+        "evaluator": "101-point AP50 proxy; no small-object ignore reconstruction; no detection cap"
+      },
+      "overlapping": {
+        "images": 358,
+        "mAP50": 0.7931311762247745,
+        "per_class": {
+          "car": {
+            "AP50": 0.8840916958935372,
+            "recall": 0.9712573880657437,
+            "ground_truth": 12351,
+            "true_positives": 11996,
+            "false_positives": 58932,
+            "predictions": 70928
+          },
+          "van": {
+            "AP50": 0.6704818262141219,
+            "recall": 0.9378827646544182,
+            "ground_truth": 2286,
+            "true_positives": 2144,
+            "false_positives": 28211,
+            "predictions": 30355
+          },
+          "truck": {
+            "AP50": 0.7157491483783822,
+            "recall": 0.9233097880928355,
+            "ground_truth": 991,
+            "true_positives": 915,
+            "false_positives": 15101,
+            "predictions": 16016
+          },
+          "bus": {
+            "AP50": 0.9022020344130569,
+            "recall": 0.9617391304347827,
+            "ground_truth": 575,
+            "true_positives": 553,
+            "false_positives": 3793,
+            "predictions": 4346
+          }
+        },
+        "evaluator": "101-point AP50 proxy; no small-object ignore reconstruction; no detection cap"
+      },
+      "dense": {
+        "images": 182,
+        "mAP50": 0.8025808914891688,
+        "per_class": {
+          "car": {
+            "AP50": 0.8948154938706877,
+            "recall": 0.9743404781533388,
+            "ground_truth": 9704,
+            "true_positives": 9455,
+            "false_positives": 33192,
+            "predictions": 42647
+          },
+          "van": {
+            "AP50": 0.6545324797262161,
+            "recall": 0.929000546149645,
+            "ground_truth": 1831,
+            "true_positives": 1701,
+            "false_positives": 18753,
+            "predictions": 20454
+          },
+          "truck": {
+            "AP50": 0.7694992837575968,
+            "recall": 0.9475262368815592,
+            "ground_truth": 667,
+            "true_positives": 632,
+            "false_positives": 7805,
+            "predictions": 8437
+          },
+          "bus": {
+            "AP50": 0.8914763086021746,
+            "recall": 0.9607329842931938,
+            "ground_truth": 382,
+            "true_positives": 367,
+            "false_positives": 2155,
+            "predictions": 2522
+          }
+        },
+        "evaluator": "101-point AP50 proxy; no small-object ignore reconstruction; no detection cap"
+      }
+    },
+    "iou080_cap500": {
+      "unfiltered": {
+        "mAP50": 0.8025997709208408,
+        "per_class": {
+          "car": {
+            "AP50": 0.9039922825006748,
+            "recall": 0.9822564710531515,
+            "ground_truth": 25305,
+            "true_positives": 24856,
+            "false_positives": 186357,
+            "predictions": 211213
+          },
+          "van": {
+            "AP50": 0.7000947778750266,
+            "recall": 0.951235230934479,
+            "ground_truth": 4655,
+            "true_positives": 4428,
+            "false_positives": 70376,
+            "predictions": 74804
+          },
+          "truck": {
+            "AP50": 0.7508287077754598,
+            "recall": 0.9392812887236679,
+            "ground_truth": 2421,
+            "true_positives": 2274,
+            "false_positives": 42468,
+            "predictions": 44742
+          },
+          "bus": {
+            "AP50": 0.8554833155322016,
+            "recall": 0.9497716894977168,
+            "ground_truth": 1095,
+            "true_positives": 1040,
+            "false_positives": 11316,
+            "predictions": 12356
+          }
+        },
+        "evaluator": "101-point AP50 proxy; no small-object ignore reconstruction; no detection cap"
+      },
+      "area200": {
+        "mAP50": 0.8025555091313756,
+        "per_class": {
+          "car": {
+            "AP50": 0.9025911862005622,
+            "recall": 0.9799644339063426,
+            "ground_truth": 25305,
+            "true_positives": 24798,
+            "false_positives": 172268,
+            "predictions": 197066
+          },
+          "van": {
+            "AP50": 0.7015005971951274,
+            "recall": 0.9501611170784103,
+            "ground_truth": 4655,
+            "true_positives": 4423,
+            "false_positives": 65769,
+            "predictions": 70192
+          },
+          "truck": {
+            "AP50": 0.7504586273035385,
+            "recall": 0.9372160264353573,
+            "ground_truth": 2421,
+            "true_positives": 2269,
+            "false_positives": 39870,
+            "predictions": 42139
+          },
+          "bus": {
+            "AP50": 0.8556716258262742,
+            "recall": 0.9488584474885845,
+            "ground_truth": 1095,
+            "true_positives": 1039,
+            "false_positives": 10778,
+            "predictions": 11817
+          }
+        },
+        "evaluator": "101-point AP50 proxy; no small-object ignore reconstruction; no detection cap"
+      },
+      "overlapping": {
+        "images": 358,
+        "mAP50": 0.7870276688376182,
+        "per_class": {
+          "car": {
+            "AP50": 0.8774781997899787,
+            "recall": 0.9743340620192696,
+            "ground_truth": 12351,
+            "true_positives": 12034,
+            "false_positives": 70459,
+            "predictions": 82493
+          },
+          "van": {
+            "AP50": 0.6632998190220903,
+            "recall": 0.9221347331583553,
+            "ground_truth": 2286,
+            "true_positives": 2108,
+            "false_positives": 30535,
+            "predictions": 32643
+          },
+          "truck": {
+            "AP50": 0.7104510626471435,
+            "recall": 0.9162462159434914,
+            "ground_truth": 991,
+            "true_positives": 908,
+            "false_positives": 15798,
+            "predictions": 16706
+          },
+          "bus": {
+            "AP50": 0.8968815938912603,
+            "recall": 0.9617391304347827,
+            "ground_truth": 575,
+            "true_positives": 553,
+            "false_positives": 4019,
+            "predictions": 4572
+          }
+        },
+        "evaluator": "101-point AP50 proxy; no small-object ignore reconstruction; no detection cap"
+      },
+      "dense": {
+        "images": 182,
+        "mAP50": 0.796543389689787,
+        "per_class": {
+          "car": {
+            "AP50": 0.8890769941156584,
+            "recall": 0.9770197856553998,
+            "ground_truth": 9704,
+            "true_positives": 9481,
+            "false_positives": 38146,
+            "predictions": 47627
+          },
+          "van": {
+            "AP50": 0.6471926713800046,
+            "recall": 0.9093391589295466,
+            "ground_truth": 1831,
+            "true_positives": 1665,
+            "false_positives": 19282,
+            "predictions": 20947
+          },
+          "truck": {
+            "AP50": 0.7626701796876417,
+            "recall": 0.9385307346326837,
+            "ground_truth": 667,
+            "true_positives": 626,
+            "false_positives": 7439,
+            "predictions": 8065
+          },
+          "bus": {
+            "AP50": 0.8872337135758434,
+            "recall": 0.9633507853403142,
+            "ground_truth": 382,
+            "true_positives": 368,
+            "false_positives": 2160,
+            "predictions": 2528
+          }
+        },
+        "evaluator": "101-point AP50 proxy; no small-object ignore reconstruction; no detection cap"
+      }
+    },
+    "iou080_cap1000": {
+      "unfiltered": {
+        "mAP50": 0.8036249526269497,
+        "per_class": {
+          "car": {
+            "AP50": 0.9040999871534853,
+            "recall": 0.9836395969176052,
+            "ground_truth": 25305,
+            "true_positives": 24891,
+            "false_positives": 219877,
+            "predictions": 244768
+          },
+          "van": {
+            "AP50": 0.702355071517818,
+            "recall": 0.9709989258861439,
+            "ground_truth": 4655,
+            "true_positives": 4520,
+            "false_positives": 85786,
+            "predictions": 90306
+          },
+          "truck": {
+            "AP50": 0.7514548352052766,
+            "recall": 0.9487814952498967,
+            "ground_truth": 2421,
+            "true_positives": 2297,
+            "false_positives": 52973,
+            "predictions": 55270
+          },
+          "bus": {
+            "AP50": 0.8565899166312188,
+            "recall": 0.9552511415525115,
+            "ground_truth": 1095,
+            "true_positives": 1046,
+            "false_positives": 14244,
+            "predictions": 15290
+          }
+        },
+        "evaluator": "101-point AP50 proxy; no small-object ignore reconstruction; no detection cap"
+      },
+      "area200": {
+        "mAP50": 0.8037796950119893,
+        "per_class": {
+          "car": {
+            "AP50": 0.9039084301038764,
+            "recall": 0.9815056312981624,
+            "ground_truth": 25305,
+            "true_positives": 24837,
+            "false_positives": 203599,
+            "predictions": 228436
+          },
+          "van": {
+            "AP50": 0.7033604298929053,
+            "recall": 0.9697099892588614,
+            "ground_truth": 4655,
+            "true_positives": 4514,
+            "false_positives": 79944,
+            "predictions": 84458
+          },
+          "truck": {
+            "AP50": 0.7510829024091628,
+            "recall": 0.946303180503924,
+            "ground_truth": 2421,
+            "true_positives": 2291,
+            "false_positives": 49445,
+            "predictions": 51736
+          },
+          "bus": {
+            "AP50": 0.856767017642013,
+            "recall": 0.954337899543379,
+            "ground_truth": 1095,
+            "true_positives": 1045,
+            "false_positives": 13452,
+            "predictions": 14497
+          }
+        },
+        "evaluator": "101-point AP50 proxy; no small-object ignore reconstruction; no detection cap"
+      },
+      "overlapping": {
+        "images": 358,
+        "mAP50": 0.7888046171749538,
+        "per_class": {
+          "car": {
+            "AP50": 0.8775328193362443,
+            "recall": 0.9770059104525949,
+            "ground_truth": 12351,
+            "true_positives": 12067,
+            "false_positives": 92256,
+            "predictions": 104323
+          },
+          "van": {
+            "AP50": 0.6671811249709566,
+            "recall": 0.9597550306211724,
+            "ground_truth": 2286,
+            "true_positives": 2194,
+            "false_positives": 41232,
+            "predictions": 43426
+          },
+          "truck": {
+            "AP50": 0.711563229934893,
+            "recall": 0.9354187689202825,
+            "ground_truth": 991,
+            "true_positives": 927,
+            "false_positives": 22953,
+            "predictions": 23880
+          },
+          "bus": {
+            "AP50": 0.8989412944577212,
+            "recall": 0.9721739130434782,
+            "ground_truth": 575,
+            "true_positives": 559,
+            "false_positives": 5857,
+            "predictions": 6416
+          }
+        },
+        "evaluator": "101-point AP50 proxy; no small-object ignore reconstruction; no detection cap"
+      },
+      "dense": {
+        "images": 182,
+        "mAP50": 0.7995498480909438,
+        "per_class": {
+          "car": {
+            "AP50": 0.8905920187396296,
+            "recall": 0.9802143446001649,
+            "ground_truth": 9704,
+            "true_positives": 9512,
+            "false_positives": 55813,
+            "predictions": 65325
+          },
+          "van": {
+            "AP50": 0.6529216267473723,
+            "recall": 0.9557618787547788,
+            "ground_truth": 1831,
+            "true_positives": 1750,
+            "false_positives": 28496,
+            "predictions": 30246
+          },
+          "truck": {
+            "AP50": 0.7646205793090016,
+            "recall": 0.9625187406296851,
+            "ground_truth": 667,
+            "true_positives": 642,
+            "false_positives": 12824,
+            "predictions": 13466
+          },
+          "bus": {
+            "AP50": 0.8900651675677715,
+            "recall": 0.9738219895287958,
+            "ground_truth": 382,
+            "true_positives": 372,
+            "false_positives": 3629,
+            "predictions": 4001
+          }
+        },
+        "evaluator": "101-point AP50 proxy; no small-object ignore reconstruction; no detection cap"
+      }
+    }
+  },
+  "selected": {
+    "name": "iou060_cap500",
+    "iou": 0.6,
+    "max_det": 500
+  },
+  "notes": [
+    "Primary metric: local AP50 proxy after original-pixel area >=200 filtering.",
+    "Crowded subsets use GT geometry only; overlap does not prove occlusion.",
+    "Four NMS settings on one holdout are exploratory, not independent test evidence."
+  ]
+}

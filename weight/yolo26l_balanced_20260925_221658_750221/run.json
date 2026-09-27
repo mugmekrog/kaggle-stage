@@ -1,0 +1,16 @@
+{
+  "family": "yolo26",
+  "classes": [
+    "car",
+    "van",
+    "truck",
+    "bus"
+  ],
+  "model": "l",
+  "imgsz": 1280,
+  "batch": 8,
+  "epochs": 50,
+  "custom_trainer": true,
+  "profile": "balanced",
+  "split_fingerprint": "6a1f7df749c2f13af470aed24c41b5a8fa1a37ed2a0ad7b9e82eb51c01dfca6a"
+}

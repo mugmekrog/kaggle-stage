@@ -4,3 +4,14 @@
 *.ipynb text eol=lf
 *.json text eol=lf
 *.zip binary
+
+# Preserve exported artifact bytes; store model/data binaries through Git LFS.
+weight/** -text
+weight/**/*.pt filter=lfs diff=lfs merge=lfs -text
+weight/**/*.pth filter=lfs diff=lfs merge=lfs -text
+weight/**/*.ckpt filter=lfs diff=lfs merge=lfs -text
+weight/**/*.pkl filter=lfs diff=lfs merge=lfs -text
+weight/**/*.csv filter=lfs diff=lfs merge=lfs -text
+weight/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+weight/**/*.png filter=lfs diff=lfs merge=lfs -text
+weight/**/events.out.tfevents.* filter=lfs diff=lfs merge=lfs -text

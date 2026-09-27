@@ -14,3 +14,8 @@ venv/
 *.pkl
 runs/
 prepared/
+
+# Published model artifacts are intentionally versioned under weight/.
+!weight/**
+weight/**/__pycache__/
+weight/**/*.py[cod]
