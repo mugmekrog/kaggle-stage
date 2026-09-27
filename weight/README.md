@@ -13,7 +13,6 @@ weight/
   yolo26l_balanced_20260925_221658_750221/
     best_ap50.pt
     last_resume.pt
-    weights/
     nms_validation_20260926_051703_130918/
     submission_20260926_052139_710137/
     ...
@@ -25,12 +24,15 @@ weight/
 | Model | Dosya | Kaynak akıştaki kullanım |
 |---|---|---|
 | RF-DETR | `rfdetr_dinov2/runs/rfdetr_large_768_t768/checkpoint_best_total.pth` | Notebook'un ilk tercih ettiği inference checkpoint'i |
-| RF-DETR | `rfdetr_dinov2/runs/rfdetr_large_768_t768/checkpoint_best_ema.pth` | EMA checkpoint alternatifi |
 | RF-DETR | `rfdetr_dinov2/runs/rfdetr_large_768_t768/last.ckpt` | Eğitime devam checkpoint'i |
 | YOLO26l | `yolo26l_balanced_20260925_221658_750221/best_ap50.pt` | Kaydedilmiş validation AP50 seçimi |
 | YOLO26l | `yolo26l_balanced_20260925_221658_750221/last_resume.pt` | Eğitime devam checkpoint'i |
 
-Diğer checkpoint'ler, tahmin cache'leri, CSV'ler, metrikler, ayarlar ve görseller de korunmuştur. `manifest.json` yayımlanan her kaynak dosyasının boyutunu ve SHA-256 değerini listeler. Kaynak dosyalarla kopyaların hash'leri karşılaştırılmıştır; modeller bu aktarım sırasında çalıştırılmamıştır.
+Her model için yalnızca seçilmiş inference checkpoint'i ve eğitime devam checkpoint'i tutulur. YOLO `weights/` altındaki beş ara epoch ve `best.pt`/`last.pt` dosyaları ile RF-DETR'ın alternatif `checkpoint_best_ema.pth` ve `last_ema.pth` dosyaları güncel daldan çıkarılmıştır. Bu seçim mevcut notebook'ların kullandığı `best_ap50.pt` ve `checkpoint_best_total.pth` yollarını korur; yeni bir model kalitesi karşılaştırması yapılmamıştır.
+
+Tahmin cache'leri, CSV'ler, metrikler, ayarlar ve görseller korunmuştur. `manifest.json` yayımlanan 66 kaynak dosyasının boyutunu ve SHA-256 değerini listeler; çıkarılmış dokuz checkpoint `omitted_checkpoints` alanında kayıtlıdır. Kaynak dosyalarla kopyaların hash'leri karşılaştırılmıştır; modeller bu aktarım sırasında çalıştırılmamıştır.
+
+Bu temizlik güncel checkout/indirme boyutunu azaltır. Önceki commit'ler ve onların LFS nesneleri geçmişte kalır; GitHub LFS depolama kullanımının azaldığı anlamına gelmez.
 
 Python `__pycache__` dosyası hariç tutulmuştur. Kaynak klasörlerin yanındaki ZIP arşivleri aynı içerikleri tekrar etmemesi için eklenmemiştir. Kaynak bilgisayardaki dosyalar değiştirilmemiştir.
 

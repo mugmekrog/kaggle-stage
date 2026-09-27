@@ -1,6 +1,6 @@
 {
-  "file_count": 75,
-  "total_bytes": 2821129818,
+  "file_count": 66,
+  "total_bytes": 1390452149.0,
   "excluded": [
     "rfdetr_dinov2/__pycache__/run.cpython-312.pyc"
   ],
@@ -48,12 +48,6 @@
       "git_lfs": false
     },
     {
-      "path": "rfdetr_dinov2/runs/rfdetr_large_768_t768/checkpoint_best_ema.pth",
-      "size_bytes": 135401755,
-      "sha256": "af19c63450d02d740019bb0a4facef66a72fd0b005b550ea8982467a726b1bb6",
-      "git_lfs": true
-    },
-    {
       "path": "rfdetr_dinov2/runs/rfdetr_large_768_t768/checkpoint_best_total.pth",
       "size_bytes": 135389147,
       "sha256": "d1a7f46bc691216d6528dbdf64450c54715673d1daaaa702a41b6bfba9349638",
@@ -87,12 +81,6 @@
       "path": "rfdetr_dinov2/runs/rfdetr_large_768_t768/last.ckpt",
       "size_bytes": 541117283,
       "sha256": "acbb2064765b7250ccdb407c3695c2eea515ccf425d4d5be922ca0aee0098812",
-      "git_lfs": true
-    },
-    {
-      "path": "rfdetr_dinov2/runs/rfdetr_large_768_t768/last_ema.pth",
-      "size_bytes": 135395971,
-      "sha256": "6ea0393b37f8fe92256787cc2e296f489c1bbd892626d25999e9aab2081f8295",
       "git_lfs": true
     },
     {
@@ -412,6 +400,20 @@
       "size_bytes": 71170,
       "sha256": "da31f8b6f03f4e472162edfe1cf2a3285c34e1b3f28bccf12b466a622fe14ff8",
       "git_lfs": false
+    }
+  ],
+  "omitted_checkpoints": [
+    {
+      "path": "rfdetr_dinov2/runs/rfdetr_large_768_t768/checkpoint_best_ema.pth",
+      "size_bytes": 135401755,
+      "sha256": "af19c63450d02d740019bb0a4facef66a72fd0b005b550ea8982467a726b1bb6",
+      "git_lfs": true
+    },
+    {
+      "path": "rfdetr_dinov2/runs/rfdetr_large_768_t768/last_ema.pth",
+      "size_bytes": 135395971,
+      "sha256": "6ea0393b37f8fe92256787cc2e296f489c1bbd892626d25999e9aab2081f8295",
+      "git_lfs": true
     },
     {
       "path": "yolo26l_balanced_20260925_221658_750221/weights/best.pt",
