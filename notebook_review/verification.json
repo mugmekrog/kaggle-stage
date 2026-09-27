@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "notebooks": 7,
+  "code_cells_compiled": 48,
+  "original_code_cells_accounted_for": 29,
+  "source_groups_ast_checked": 26,
+  "embedded_workers": 5,
+  "paired_python_ast_matches": true,
+  "original_hashes_unchanged": true,
+  "fresh_resume_skip_checks": "passed",
+  "gpu_training_executed": false,
+  "framework_api_compatibility_tested": false
+}

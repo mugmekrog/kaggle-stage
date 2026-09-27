@@ -1,0 +1,137 @@
+{
+  "sources": {
+    "yolo": {
+      "filename": "yolo26l_custom_a100.ipynb",
+      "sha256": "5a68aadefb0ef19196a9b22202b0c6136a7a2aa378c3f3e96738f5b4e447ee1f",
+      "cells": 32,
+      "nonempty_code_cells": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        13,
+        19,
+        23,
+        25,
+        28,
+        30
+      ]
+    },
+    "rf": {
+      "filename": "astra_rfdetr_4h (4).ipynb",
+      "sha256": "9e353bb1741615afee563969673c5539e3dd5bb3bc1112f85807617ce1159d17",
+      "cells": 17,
+      "nonempty_code_cells": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        14,
+        15
+      ]
+    }
+  },
+  "notebooks": {
+    "01_yolo26l_training": {
+      "source_cells": [
+        "yolo:1",
+        "yolo:10",
+        "yolo:11",
+        "yolo:2",
+        "yolo:3",
+        "yolo:4",
+        "yolo:5",
+        "yolo:6",
+        "yolo:7",
+        "yolo:9"
+      ],
+      "cells": 23,
+      "notebook_sha256": "ac227711bb330d92c6b0218ae824af89caa0961555c6ba7573c82742eca181e2",
+      "python_sha256": "e38211cc6e7361f398100156db5e10c50f533a29099b0fc6da102df22e8d88d4"
+    },
+    "02_rfdetr_training": {
+      "source_cells": [
+        "rf:1+8",
+        "rf:10",
+        "rf:11",
+        "rf:12",
+        "rf:2",
+        "rf:3",
+        "rf:4",
+        "rf:5",
+        "rf:7",
+        "rf:9"
+      ],
+      "cells": 26,
+      "notebook_sha256": "90b017342c767ddf6dce3100f45989415a71a0cdcf84aabc71016724d9bb0295",
+      "python_sha256": "a0dcb40b88e3d42ad482f716c464d728ea72f33f4cbf743e156ae6ee21190263"
+    },
+    "extras/03_yolo_rf_ensemble": {
+      "source_cells": [
+        "yolo:13"
+      ],
+      "cells": 11,
+      "notebook_sha256": "1d0ae76944986f990ed13cd4b358f57dccc2ba71c17c2321edd4c01fe0c1555b",
+      "python_sha256": "ce445ffd7c677ccec7a31119632a82034386697186ee06b39e07cc52c499135c"
+    },
+    "extras/04_ensemble_6040": {
+      "source_cells": [
+        "yolo:19"
+      ],
+      "cells": 6,
+      "notebook_sha256": "d80329a0beaf7c66bcb0dadc95418c117824818cb2911cc8484fb0eb61b56fcc",
+      "python_sha256": "c6c3a9efc577565a4fd405ce36ab7cc8b81aa2b53df9476171e797412f8ebe4d"
+    },
+    "extras/05_ensemble_three_models": {
+      "source_cells": [
+        "yolo:23"
+      ],
+      "cells": 4,
+      "notebook_sha256": "21e040ab4b6bb1b09e7571b3face625b4785bc360c81a5cd19c1f3123523658c",
+      "python_sha256": "47b07727209903b9ea33b6ead010c8fa72c96de16d03fdde24fcf278ac121742"
+    },
+    "extras/06_yolo_new_images": {
+      "source_cells": [
+        "yolo:25",
+        "yolo:28",
+        "yolo:30"
+      ],
+      "cells": 9,
+      "notebook_sha256": "81ce91c2141494a5cfa0eb01e86ab22de03c5540331e45c3aa3e25be3e1248c5",
+      "python_sha256": "f58ac8811aa80aa220f4f9c7ff57ee922031a888061422fa616cb83d9bfcac4b"
+    },
+    "extras/07_rfdetr_new_images": {
+      "source_cells": [
+        "rf:1+8",
+        "rf:10",
+        "rf:14",
+        "rf:15",
+        "rf:2",
+        "rf:9"
+      ],
+      "cells": 14,
+      "notebook_sha256": "fb1f528b88716292590a80d134b9e5352655e66b6bebeac76f05c97cffd42526",
+      "python_sha256": "588238f6e7a1c87be5dd68ac7bc5a95e768e4eec9b8429479717829b576653b1"
+    }
+  },
+  "embedded_workers": {
+    "embedded_workers/yolo_19_meta_worker.py": "bfc66ca7ef0afbd5b118b9aae34bec0d8e4e6c8fdee78c0e1933528a0bb2627d",
+    "embedded_workers/yolo_19_recovery_worker.py": "897bc1056235054340da14cf8c66653db300624ee016bdc6244ae13012778a0f",
+    "embedded_workers/yolo_23_three_worker.py": "c8bac9ef90295efa9739b296e64e0e2d9b77bef89ce867b195667f65a11bfaba",
+    "embedded_workers/yolo_28_new_worker.py": "d53c769e895b51ceda5e543ad006ddac9a080bbf2426f6395281d2a213ae387d",
+    "embedded_workers/yolo_30_pair40_worker.py": "b04134758164a67fa3e51b3de429aedafd3c9e66748c7d97b4beb477bc1c894d"
+  }
+}
